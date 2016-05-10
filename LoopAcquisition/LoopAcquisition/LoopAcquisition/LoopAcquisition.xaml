@@ -1,0 +1,13 @@
+﻿<UserControl x:Class="LoopAcquisition.Loop_Acquisition.LoopAcquisitionUI"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="200" d:DesignWidth="300">
+    <Grid Height="200" Width="300">
+        <Button Content="Acquire" Height="30" HorizontalAlignment="Left" Margin="15,15,0,0" Name="AcqButton" VerticalAlignment="Top" Width="110" Click="AcqButton_Click" />
+        <Button Content="Acquire Continuously" Height="30" HorizontalAlignment="Left" Margin="145,15,0,0" Name="ContAcqButton" VerticalAlignment="Top" Width="140" Click="ContAcqButton_Click" />
+        <Button Content="Break" HorizontalAlignment="Left" Height="31" Margin="145,65,0,0" VerticalAlignment="Top" Width="140" Click="BreakButton_Click"/>
+    </Grid>
+</UserControl>
